@@ -1,0 +1,12 @@
+<VirtualHost *:80>
+
+	ServerName homepage.com
+	ServerAlias www.homepage.com
+
+	DocumentRoot /home/editor/public_html/
+
+		<Directory /home/editor/public_html/>
+			Require all granted
+		</Directory>
+
+</VirtualHost>
