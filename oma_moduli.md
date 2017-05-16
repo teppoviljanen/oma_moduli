@@ -129,6 +129,7 @@ Tämän jälkeen loin hakemiston templates polkuun /etc/puppet/modules/editor
 Loin seuraavat templatet:
 
 ### homepagecom.conf.erb, jonka sisältö:
+
 ```
 <VirtualHost *:80>
 
@@ -149,7 +150,8 @@ Loin seuraavat templatet:
 127.0.0.1	localhost
 127.0.1.1	orja
 127.0.0.1	homepage.com
-
+```
+```
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
