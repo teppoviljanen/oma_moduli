@@ -221,7 +221,7 @@ Ajoin scriptin
 
 	$ bash start.sh
 
-Scripti toimi ja moduli asentui onnistuneesti.
+Scripti toimi ja moduli asentui onnistuneesti. Tämän jälkeen testasin toiminnan ja kaikki toimi niin kuin pitikin.
 
 Tämän jälkeen asensin Xubuntu 16.04.1 LTS "Xenial Xerus" - Release amd64 -käyttöjärjestelmän kannettavaan tietokoneeseen Dell Latitude E6420, jossa Intel Core i5 ja 4 Gt RAM.
 
@@ -233,7 +233,7 @@ Ajoin scriptin
 
 	$ bash start.sh
 
-Scripti toimi ja moduli asentui onnistuneesti.
+Scripti toimi ja moduli asentui onnistuneesti. Tämän jälkeen testasin toiminnan ja kaikki toimi niin kuin pitikin.
 
 
 ![moduli](moduli1.png)
@@ -255,3 +255,6 @@ Puppet Cookbook, joka löytyy osoitteesta:
 
 https://www.puppetcookbook.com/
 
+Discord Help Center / Markdown text, joka löytyy osoitteesta:
+
+https://support.discordapp.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-
