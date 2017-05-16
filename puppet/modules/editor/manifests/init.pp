@@ -12,6 +12,7 @@ class editor{
 
 	file {'/etc/apache2/sites-available/homepagecom.conf':
 		content => template('editor/homepagecom.conf.erb'),
+		require => Package['apache2'],
 	}
 
 	file {'/etc/hosts':
@@ -41,6 +42,7 @@ class editor{
 	file { '/etc/apache2/sites-enabled/homepagecom.conf':
 		ensure => link,
 		target => '/etc/apache2/sites-available/homepagecom.conf',
+		require => Package['apache2'],
 		notify => Service['apache2'],	
 	}
 
@@ -52,7 +54,8 @@ class editor{
 
 	user { 'editor':
 		ensure => 'present',		
-		password => 'KPfsVjEV6Erq2',
+		password => 'jAwQ639FgEpas',
+		managehome => true,
 		home => '/home/editor',
 	}
 
@@ -66,6 +69,7 @@ class editor{
 	file { '/home/editor/public_html/index.php':
 		content => template('editor/index.php.erb'),
 		owner => 'editor',
+		require => File['/home/editor/public_html/'],
 	}
 
         package { 'gimp':
