@@ -172,7 +172,7 @@ ff02::2 ip6-allrouters
 
 
 ### php7.0.conf.erb, jonka sisältö:
-
+```
 <FilesMatch ".+\.ph(p[3457]?|t|tml)$">
     SetHandler application/x-httpd-php
 </FilesMatch>
@@ -198,7 +198,7 @@ ff02::2 ip6-allrouters
 #        php_admin_flag engine Off
 #   </Directory>
 #</IfModule>
-
+```
 
 Loin kotihakemistooni polun /home/teppo/oma_moduli/puppet/modules/
 
