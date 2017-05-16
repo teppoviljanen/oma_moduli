@@ -162,16 +162,17 @@ Loin seuraavat templatet:
 
 ### index.php.erb, jonka sisältö:
 
-<!DOCTYPE html>
+```
+	<!DOCTYPE html>
 
-<html>
-	<body>
-		<?php
-			echo "Welcome Editors homepage!";
-		?>
-	</body>
-</html>
-
+	<html>
+		<body>
+			<?php
+				echo "Welcome Editors homepage!";
+			?>
+		</body>
+	</html>
+```
 
 ### php7.0.conf.erb, jonka sisältö:
 
